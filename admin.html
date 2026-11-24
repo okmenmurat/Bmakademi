@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>BE Mentor Akademi — Yönetim Paneli</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon-be.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=Dancing+Script:wght@600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/design-system.css?v=4">
+  <link rel="stylesheet" href="css/admin.css?v=4">
+</head>
+<body class="admin-body">
+  <div id="admin-root"></div>
+
+  <!-- Admin Modal Portal -->
+  <div class="modal-backdrop" id="admin-modal-backdrop" aria-hidden="true">
+    <div class="modal-dialog" id="admin-modal-dialog" role="dialog" aria-modal="true">
+      <button class="modal-close-btn" id="admin-modal-close" aria-label="Kapat">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+      <div id="admin-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Toast Stack -->
+  <div class="toast-stack" id="admin-toast-stack"></div>
+
+  <script src="js/store.js?v=39"></script>
+  <script src="js/poster.js?v=28"></script>
+  <script src="js/admin.js?v=39"></script>
+</body>
+</html>

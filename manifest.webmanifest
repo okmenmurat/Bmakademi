@@ -1,0 +1,22 @@
+{
+  "name": "BE Mentor Akademi",
+  "short_name": "BE Mentor",
+  "description": "Diş Hekimliği Online Seminerleri, Kozyatağı Hands-On Workshopları ve 1:1 Klinik Vaka Danışmanlığı Platformu",
+  "lang": "tr",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#040712",
+  "theme_color": "#040712",
+  "icons": [
+    {
+      "src": "assets/favicon-be.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "assets/logo-beyaz.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

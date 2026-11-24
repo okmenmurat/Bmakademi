@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /#/sepet
+Disallow: /#/odeme
+Disallow: /#/profil
+
+Sitemap: https://www.bementorakademi.com/sitemap.xml
